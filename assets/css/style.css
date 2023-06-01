@@ -1,13 +1,16 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors select all of that element type */
 body {
     background-color: #d9dcd6;
 }
 
+/* Class Selectors select all elements with that class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* class selector */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* class selector */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-
+/* class selector */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* class selector */
 .header nav ul {
     list-style-type: none;
 }
 
+/* class selector */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* element selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* element selector */
 p {
-    font-size: 16px;
+    font-size: 22px;
 }
 
+/* class selector */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* class selector */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class selector */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* class selector */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* class selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* class selector */
 .benefit-all {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* class selector */
 .benefit-all h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* class selector */
 .benefit-all img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class selector */
 .section-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* class selector */
 .section-style img {
     max-height: 200px;
 }
 
+/* class selector */
 .section-style h2 {
     margin-bottom: 20px;
     font-size: 40px;
 }
 
+/* class selector */
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* class selector */
 .footer h4 {
     font-size: 20px;
 }
