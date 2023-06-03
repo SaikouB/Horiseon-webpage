@@ -1,36 +1,15 @@
-# Foobar
+# Horiseon
+Horiseon
 
-Foobar is a Python library for dealing with word pluralization.
+# Description
+
+Horiseon is a webpage I edited to meet accessibility standards.
+This was done when I viewed the html source code, then edited elements in html code to make sure it is semantically correct. Also, I reorganized the html structure so that it follows a logical structure. I added accessible alt attributes to images for description purposes incase images do not load on webpage. I modified code to follow sequential order in html and css. I also, consolidated css code to give it minimal redundant values and cleaner look. Finally, I added a descriptive title to the webpage.
 
 ## Installation
+N/A
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+# Link
 
 ## License
 
